@@ -1,0 +1,144 @@
+dev-dax engine is initialized: dev_path /dev/dax0.0 size 7642 MB
+Intializing spdk async engine
+Starting DPDK 17.05.0 initialization...
+[ DPDK EAL parameters: libspdk -c 0x1 --file-prefix=spdk10 --base-virtaddr=0x1000000000 --proc-type=auto ]
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+Initializing NVMe Controllers....
+EAL: PCI device 0000:01:00.0 on NUMA socket 0
+EAL:   probe driver: 8086:2700 spdk_nvme
+Using controller INTEL SSDPED1D280GA  (PHMB743500GU280CGN  ) with 1 namespaces.
+Namespace ID: 1 size: 280GB
+dev-dax engine is initialized: dev_path /dev/dax1.0 size 1498 MB
+[9969][init_fs():328] LibFS is initialized with id 4
+-----------------------------------------
+[mobibench measurement setup]
+-----------------------------------------
+File size per thread : 6291456 KB
+IO size : 4 KB
+IO count : 1572864 
+Access Mode 6, Sync Mode 0
+Write ratio : 20 % 
+# of Threads : 1
+setState: 1
+00%01%02%03%04%05%06%07%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|891|3141|0|
+08%09%[9972][digest_thread():1298] received |ACK |891|117954|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+10%11%12%13%14%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|117954|0|
+15%16%17%[9972][digest_thread():1298] received |ACK |890|232764|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+18%19%20%21%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|232764|0|
+22%23%24%[9972][digest_thread():1298] received |ACK |890|347574|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+25%26%27%28%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|889|347574|0|
+29%30%31%[9972][digest_thread():1298] received |ACK |889|82992|1|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+32%33%34%35%36%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|82992|0|
+37%38%[9972][digest_thread():1298] received |ACK |890|197802|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+39%40%41%42%43%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|197802|0|
+44%45%46%[9972][digest_thread():1298] received |ACK |890|312612|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+47%48%49%50%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|889|312612|0|
+51%52%[9972][digest_thread():1298] received |ACK |889|48033|1|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+53%54%55%56%57%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|48033|0|
+58%59%60%[9972][digest_thread():1298] received |ACK |890|162843|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+61%62%63%64%65%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|162843|0|
+66%67%[9972][digest_thread():1298] received |ACK |890|277653|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+68%69%70%71%72%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|889|277653|0|
+73%74%75%[9972][digest_thread():1298] received |ACK |889|13074|1|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+76%77%78%79%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|13074|0|
+80%81%82%[9972][digest_thread():1298] received |ACK |890|127884|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+83%84%85%86%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|890|127884|0|
+87%88%89%90%91%92%93%94%95%96%97%98%[9973][log_alloc():257] [31m [L] synchronous digest request and wait! [0m
+[9972][digest_thread():1298] received |ACK |890|242694|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|1458|242694|0|
+99%100%setState: 2
+Do random reads and writes 
+00%01%02%03%04%05%06%07%[9972][digest_thread():1298] received |ACK |1458|51516|1|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+08%09%10%11%12%13%14%15%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|47657|51516|0|
+16%17%[9972][digest_thread():1298] received |ACK |47657|166261|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|57374|166261|0|
+34%35%[9972][digest_thread():1298] received |ACK |57374|281009|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|57374|281009|0|
+52%53%54%[9972][digest_thread():1298] received |ACK |57374|16435|1|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|57376|16435|0|
+70%71%72%[9972][digest_thread():1298] received |ACK |57376|131187|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%[9973][log_alloc():233] [L] log is getting full. asynchronous digest!
+[9972][digest_thread():1237] [D] cmd: |digest |100|
+[9972][make_digest_request_sync():1021] |digest |4|57378|131187|0|
+89%90%[9972][digest_thread():1298] received |ACK |57378|245943|0|0|
+[9972][handle_digest_response():1094] digest is done correctly
+[9972][handle_digest_response():1095] -----------------------------------
+91%92%93%94%95%96%97%98%99%100%-----------------------------------------
+[Measurement Result]
+-----------------------------------------
+[CPU] : Active,Idle,IoWait : 46.89 53.11 0.00
+[TIME] :      13 sec 781050us. 	467486218 B/sec, 	456529.51 KB/sec, 	445.83 MB/sec.
+[CON SWITCHES] : 19 0
+setState: 3
+file data cache miss rate: 0.523934 
+NVM shared area miss rate: 0.521098 
+Err string : No error

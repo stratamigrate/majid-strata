@@ -1,0 +1,5 @@
+0 0 open /data/data O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE 36
+0 0 write 36 4
+0 1378 open /data/data O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE 43
+0 1378 write 43 1
+0 1684 write 36 4
